@@ -1,5 +1,12 @@
 fileFormatVersion: 2
 guid: ab5c7978d6dbf664682c6c99c1cbc6ed
+AssetOrigin:
+  serializedVersion: 1
+  productId: 356468
+  packageName: Pixel Art - Key Pack Version 2
+  packageVersion: 1.0
+  assetPath: Assets/karsiori/Pixel Art Key Pack - V2/Key 2 - Rust.png
+  uploadId: 849494
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -141,10 +148,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 356468
-  packageName: Pixel Art - Key Pack Version 2
-  packageVersion: 1.0
-  assetPath: Assets/karsiori/Pixel Art Key Pack - V2/Key 2 - Rust.png
-  uploadId: 849494

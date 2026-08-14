@@ -1,5 +1,12 @@
 fileFormatVersion: 2
 guid: 6ed309ed03acf064fbb9b73a703d2b51
+AssetOrigin:
+  serializedVersion: 1
+  productId: 356468
+  packageName: Pixel Art - Key Pack Version 2
+  packageVersion: 1.0
+  assetPath: Assets/karsiori/Pixel Art Key Pack - V2/Classic Keys/Classic Key 12.png
+  uploadId: 849494
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -141,10 +148,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 356468
-  packageName: Pixel Art - Key Pack Version 2
-  packageVersion: 1.0
-  assetPath: Assets/karsiori/Pixel Art Key Pack - V2/Classic Keys/Classic Key 12.png
-  uploadId: 849494
