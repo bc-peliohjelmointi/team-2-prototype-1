@@ -10,6 +10,16 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadSceneAsync(0);
     }
 
+    public void Guide()
+    {
+        SceneManager.LoadSceneAsync(2);
+    }
+
+    public void Back()
+    {
+        SceneManager.LoadSceneAsync(1);
+    }
+
     public void QuitGame()
     {
         Application.Quit();
