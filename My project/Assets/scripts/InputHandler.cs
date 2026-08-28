@@ -23,6 +23,15 @@ public class InputHandler : MonoBehaviour
         //katsotaan, että hiiri osui johonkin objektiin, jossa on collider.
         if (!rayHit.collider) return;
 
-        Debug.Log(rayHit.collider.gameObject.name);
+        //Debug.Log(rayHit.collider.gameObject.name);
+
+        //katsotaan, jos hiiri on osunut avaimeen
+        if (rayHit.collider.CompareTag("Key")) 
+        {
+            //avain menee "inventoriin"
+            KeyManager.Instance.CollectKey();
+            //ja tuhotaan
+            Destroy(rayHit.collider.gameObject);
+        }
     }
 }
