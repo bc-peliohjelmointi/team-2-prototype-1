@@ -1,16 +1,17 @@
 using UnityEngine;
+using TMPro;
 
 public class Score : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public TextMeshProUGUI Scoretext;
+
+    private void Start()
     {
-        
+        UpdateScore();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void UpdateScore()
     {
-        
+        Scoretext.text = KeyManager.Instance.keysCollected + " / " + KeyManager.Instance.keysNeeded;
     }
 }

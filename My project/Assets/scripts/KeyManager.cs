@@ -6,6 +6,7 @@ public class KeyManager : MonoBehaviour
 
     public int keysCollected = 0;
     public int keysNeeded = 3;
+    public Score scoreUI;
 
     private void Awake()
     {
@@ -19,10 +20,13 @@ public class KeyManager : MonoBehaviour
         }
     }
 
+   
+
     public void CollectKey()
     {
         keysCollected++;
-
+        Debug.Log("NYT" + keysCollected);
+        scoreUI.UpdateScore();
         Debug.Log("Keys collected: " + keysCollected + "/" + keysNeeded);
     }
 
