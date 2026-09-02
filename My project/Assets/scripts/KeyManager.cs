@@ -7,6 +7,7 @@ public class KeyManager : MonoBehaviour
     public int keysCollected = 0;
     public int keysNeeded = 3;
     public Score scoreUI;
+    public WinText winText;
 
     private void Awake()
     {
@@ -27,7 +28,11 @@ public class KeyManager : MonoBehaviour
         keysCollected++;
         Debug.Log("NYT" + keysCollected);
         scoreUI.UpdateScore();
-        Debug.Log("Keys collected: " + keysCollected + "/" + keysNeeded);
+
+        if (HasAllKeys())
+        {
+            winText.ShowWin();
+        }
     }
 
     public bool HasAllKeys()
