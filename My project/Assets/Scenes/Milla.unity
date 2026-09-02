@@ -1025,7 +1025,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::KeyManager
   keysCollected: 0
   keysNeeded: 3
-  scoreUI: {fileID: 0}
+  scoreUI: {fileID: 1280048572}
 --- !u!4 &1188744228
 Transform:
   m_ObjectHideFlags: 0
